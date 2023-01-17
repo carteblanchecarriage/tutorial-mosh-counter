@@ -50,11 +50,10 @@ class Counters extends Component {
         const items = [...this.state.counters];
         console.log(items)
         console.log(counter)
-        const index = 
         const newOne = items.filter(() => {
             return Array.test !== counter;
         });
-        const counters = newOne
+        const counters = newOne;
         this.setState({ counters })
     }
 
