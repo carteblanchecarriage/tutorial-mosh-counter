@@ -11,7 +11,6 @@ class Counters extends Component {
         ]
     }
 
-
     displayTotal = () => {
         const array = this.state.counters.map(counter => counter.value);
         const sum = array.reduce((a, b) => a + b)
